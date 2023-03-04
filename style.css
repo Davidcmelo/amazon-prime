@@ -1,0 +1,494 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+body{
+    font-family: 'Golos Text', sans-serif;
+}
+
+.back{
+    background-color: #1A242F;
+}
+
+#logo-pv{
+    width: 190px;
+    padding: 20px;
+}
+
+.nav-nav{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.nav-img{
+    height: 20px;
+}
+
+.text{
+    font-size: 17px;
+    color: #a9c1cf;
+    font-weight: 400;
+}
+
+.text:hover{
+    color: white;
+}
+
+.text-btn{
+    color: white;
+    font-size: 15px;
+}
+
+.list-nav{    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btn-toggler{
+    background-color: #52a1cf;
+    border-color: white;
+}
+
+/*  Capa com imagem e texto*/
+.pos-nav{
+    padding-top: 100px;
+}
+
+.img{
+    width: 100%;
+    height: 75vh;
+}
+
+.marge-feia{
+    margin: 0;
+}
+
+.tela{
+    padding: 0;
+}
+
+.text-tela{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    text-align: justify;
+    font-size: 14px;
+    padding: 50px;
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-tela > h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.btn-blue{
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+
+/* Copa do Brasil*/
+
+.img-back {
+    background:linear-gradient(to left, rgb(0, 0, 0)30%, rgba(0, 0, 0, 0),transparent), url(./imagens/copa-do-brasil.jpg);
+    min-height: 480px;
+}
+
+.text-cp{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: justify;
+    padding: 100px;
+    
+}
+
+.btn-blue-copa{
+    border-radius: 2px;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.p-rodape{
+    font-size: 13px;
+}
+   
+/* CANAIS*/
+
+.text-canais{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+    padding: 50px;
+    align-content: stretch;
+    align-items: stretch;
+}
+
+.grade-canais, .grade-canais2, .grade-canais3{
+    display: flex;
+    list-style: none;
+}
+
+.img-tam, .img-tam2{
+    max-width: 230px;
+    margin: 5px;
+    
+}
+
+.img-tam:hover{
+    box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 0.656);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.img-tam2:hover{
+    box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 0.656);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.text-canais > h1{
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.text-p-canais{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.img-prime-canais{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+.margin-enjoada{
+    margin:0;
+}
+
+/* LOJA PRIME VIDEO*/
+
+.loja-img{
+    background:linear-gradient(to left, rgb(0, 0, 0)45%, rgba(0, 0, 0, 0),transparent), url(./imagens/filmes-preto.jpg);
+    min-height: 480px;
+}
+.text-loja{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-end;
+    padding-top: 100px;
+    padding-right: 100px;
+    font-family:  'Quicksand', sans-serif; ;
+}
+
+.text-loja>h1{
+    font-size: 50px;
+}
+
+.text-loja > p, .btn-loja{
+    font-size: 20px;
+}
+
+.section-loja{
+    padding: 0;
+}
+
+
+/*  ONDE ENCONTRAR PRIME VIDEO*/
+
+.colunas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.icn-img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.icn-img> h2{
+ font-size: 25px;
+}
+
+.linha-fdp{
+    margin: 0;
+    padding: 0;
+}
+
+/*RODAPÉ*/ 
+
+.rodape{
+    background-color: #1A242F;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin: 0;
+}
+
+.img-rodape{
+    width: 140px;
+    padding-top: 40px;
+}
+
+.link-rodape{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.rodape > p{
+    text-align: center;
+    font-size: 12px;
+}
+
+
+/*  ------------Media query ----------------*/
+
+/* TEXTO CAPA ACIMA DE 991PX */
+@media screen and (min-width:991px){
+    .text-tela{
+        font-size: 15px;
+        padding: 10px;
+    }
+    
+    .text-tela >h1{
+        font-size: 30px;
+        padding: 15px;
+    }
+}
+
+
+/* GERAL ENTRE 768PX E 991PX*/
+@media screen and (min-width:768px) and (max-width:991px){
+ 
+    .list-nav{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    /* capa */
+
+    .text-tela > h1{
+        font-size: 19px;
+    }
+
+    .text-tela, .separador{
+        font-size: 8px;
+    }
+
+    .btn-blue{
+        font-size: 8px;
+    }
+
+    .img{
+        height: 100%;
+    }
+
+
+    /*  Copa do brasil  */
+
+    .img-back{
+        background-image:url(./imagens/copa-do-brasil.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-color: black;
+    }
+
+    .text-cp {
+        color: rgb(255, 255, 255);
+        font-size: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        align-content: flex-end;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .btn-blue-copa{
+        border-radius: 2px;
+        padding: 2px;
+
+    }
+
+    .p-rodape{
+        font-size: 8px;
+    }
+
+      /* CANAIS*/
+
+      .text-canais >h1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .text-p-canais{
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .grade-canais, .grade-canais2{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+    }
+
+    .img-tam{
+        width: 190px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-tam2{
+        width: 130px;
+       
+    }
+
+    /* LOJA PRIME VIDEO*/
+    .loja-img{
+        background:linear-gradient(to bottom, rgb(0, 0, 0)45%, rgba(0, 0, 0, 0),transparent), url(./imagens/filmes-preto.jpg);
+    }
+
+    .text-loja{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: flex-start;
+    padding: 30px 50px 0 0;
+    }
+
+    .btn-loja{
+        margin:0;
+    }
+
+}
+
+
+/* GERAL ATÉ 768PX*/
+@media screen  and (max-width:768px) {
+    /* Capa*/
+    .text-tela {
+        color: white;
+        background-color: rgb(0, 0, 0);
+        text-align: justify;
+        font-size: 10px;
+        padding: 10px;
+        display: flex;
+        text-align: justify;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+
+    /* Copa do brasil*/
+    .text-cp {
+        color: rgb(255, 255, 255);
+        font-size: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .p-rodape{
+        font-size: 10px;
+    }
+    .img-back{
+        background-image:url(./imagens/copa-do-brasil.jpg);
+        background-size: cover;
+    }
+
+    /* CANAIS*/
+
+    .text-canais >h1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .text-p-canais{
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .grade-canais, .grade-canais2{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+    }
+
+    .img-tam{
+        width: 150px;
+    }
+
+    .img-tam2{
+        width: 120px;
+        
+    }
+
+    /* LOJA PRIME VIDEO*/
+    .loja-img{
+        background:linear-gradient(to bottom, rgb(0, 0, 0)45%, rgba(0, 0, 0, 0),transparent), url(./imagens/filmes-preto.jpg);
+    }
+
+    .text-loja{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        padding: 0;
+        padding-top: 10px;
+    }
+
+    .text-loja> p {
+        font-size: 15px;
+    }
+    .btn-loja{
+        margin:0;
+        padding: 10px;
+        font-size: 15px;
+    }
+}
+
+
+
+
+

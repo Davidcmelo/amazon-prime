@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo(a) ao Prime Video</title>
+    <link rel="shortcut icon" href="./imagens/botao-play.png" type="image/x-icon">
+    <!-- Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- Meu CSS-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Barra de Navegação-->
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top back">
+            <div class="container-fluid ">
+                <img  class="navbar-brand" id="logo-pv" src="./imagens/logo-prime-video.png" alt="Logo Prime video">
+                <button class="navbar-toggler btn-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="col-md-6">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link text text" aria-current="page" href="#">Início</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text" href="#">Loja</a>
+                            </li>                                <li class="nav-item">
+                                <a class="nav-link text" href="#">Canais</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text" href="#">Categorias</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text" href="#">Minha área</a>                                    
+                            </li>
+                        </ul>
+                    </div>
+                        <div class="col-md-6" >
+                             <ul class="navbar-nav me-auto mb-2 mb-lg-0 list-nav">
+                                <button type="button" class="btn btn-primary text-btn">Experimente grátis</button>
+                                <li>
+                                    <a class="nav-nav" href="#"><img src="./imagens/lupa.png" alt="lupa" class="nav-img"></a >
+                                </li>
+                                <li>
+                                    <a class="nav-nav pt" href="#"><img src="./imagens/globo.png" alt="globo" class="nav-img"> PT</a >
+                                </li>
+                                <li>
+                                    <a class="nav-nav" href="#"><img src="./imagens/do-utilizador.png" alt="usuario" class="nav-img"></a >
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<!-- Capa com imagem e texto--> 
+
+    <section class="pos-nav">
+        <div class="row marge-feia">
+            <div class="col-md-4 tela text-tela">
+                <h1>Filmes, séries e muito mais</h1>
+                <p>Assista a Amazon Originais premiados e tenha frete grátis em diversos produtos. Com o plano anual você paga o equivalente a R$ 9.92/mês (R$119/ano). Aproveite!</p>
+                <button type="button" class="btn btn-primary btn-blue">Já é Prime? Faça Login</button>
+                <p class="separador">------------ ou ------------</p>
+                <button type="button" class="btn btn-primary btn-blue">Experimente 30 dias grátis*</button>
+                <p>*Após 30 dias, o Amazon Prime é renovado automaticamente por R$14,90/mês ou R$119,90/ano. Cancele a qualquer momento.</p>
+            </div>
+            <div class="col-md-8 tela">
+                <img class="img-responsive img" src="./imagens/capa-amazon1.jpg" alt="foto-capa">
+            </div>
+        </div>
+    </section>
+
+<!-- Capa Copa do Brasil-->    
+
+    <section>
+        <div class="img-back">
+            <div class="text-cp">
+                <h1>Copa do Brasil</h1>
+                <p>Assista a jogos exclusivos e ao vivo da Copa do Brasil  2023 <br> no Prime Video. Incluso na assinatura Prime, sem custo extra.</p>
+                <button type="button" class="btn btn-primary btn-blue-copa">Comece já seu teste grátis de 30 dias*</button>
+                <p class="p-rodape">*Após 30 dias, o Amazon Prime é renovado automaticamente por R$14,90/mês ou <br> R$119/ano. Cancele a qualquer momento.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Canais Prime-->
+
+    <section class="canais-section">
+        <div class="row margin-enjoada">
+            <div class="col-md-5 text-canais">
+                <h1>Adicione canais que você ama na sua assinatura Prime</h1>
+                <p class="text-p-canais">Com o Prime Video Channels, os clientes Prime podem assinar os canais que amam sem compromissos de longo prazo, ou seja, podendo cancelar a qualquer momento. Experimente canais selecionados por 7 dias grátis e assista tudo no mesmo lugar, onde estiver.</p>
+            </div>
+            <div class="col-md-7 img-prime-canais">
+                <ul class="grade-canais">
+                    <li class="img-li" ><img class="img-tam" src="./imagens/paramount.jpg" alt="paramount"></li>
+                    <li class="img-li" ><img class="img-tam" src="./imagens/premiere.jpg" alt="premiere"></li>
+                    <li class="img-li" ><img class="img-tam" src="./imagens/lionsgate.jpg" alt="lionsgate"></li>
+                </ul>
+                <ul class="grade-canais2">
+                    <li class="img-li" ><img class="img-tam" src="./imagens/discovery.jpg" alt="discovery"></li>
+                    <li class="img-li" ><img class="img-tam" src="./imagens/mgm.jpg" alt="mgm"></li>
+                    <li class="img-li" ><img class="img-tam" src="./imagens/reserva.jpg" alt="reserva"></li>
+                </ul>
+                <ul class="grade-canais3">
+                    <li class="img-li" ><img class="img-tam2" src="./imagens/looke.jpg" alt="looke"></li>
+                    <li class="img-li" ><img class="img-tam2" src="./imagens/adrenalina.jpg" alt="adrenalina"></li>
+                    <li class="img-li" ><img class="img-tam2" src="./imagens/stingray.jpg" alt="stingray"></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Loja Prime-->
+
+    <section>
+        <div class="container-fluid section-loja">
+            <div class="loja-img">
+                <div class="text-loja">
+                    <h1>Loja Prime Video</h1>
+                    <p>Agora ainda mais filmes disponíveis para alugar, sem necessidade <br> de assinatura Prime.</p>
+                    <button type="button" class="btn btn-primary btn-blue-copa btn-loja">Alugar filmes</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ONDE ENCONTRAR O PRIME VIDEO-->
+
+    <section>
+        <div class="row linha-fdp">
+            <div class="container-fluid colunas">
+                <div class="col-md-4 icn-img">
+                    <img src="./imagens/careca.png" alt="tv">
+                    <h2>Assista onde quiser</h2>
+                    <p>Assista no site ou no app Prime Video em seu celular, tablet ou seleção de Smart TVs — em até 3 dispositivos ao mesmo tempo.</p>
+                </div>
+                <div class="col-md-4 icn-img">
+                    <img src="./imagens/updated.png" alt="updated">
+                    <h2>Baixe para assistir quando e onde quiser</h2>
+                    <p>Assista offline no app Prime Video ao baixar títulos em seu iPhone, iPad, tablet ou dispositivo Android.</p>
+                </div>
+                <div class="col-md-4 icn-img">
+                    <img src="./imagens/wi-fi.png" alt="economia de dados">
+                    <h2>Economia de dados</h2>
+                    <p>Controle o uso de dados ao baixar e assistir a vídeos em uma seleção de celulares e tablets.</p>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<!--RODAPÉ-->
+    <footer>
+        <div class="rodape">
+            <img class="img-rodape" src="./imagens/footer-logo.png" alt="logo prime video">
+            <a class="link-rodape" href="#">Termos e aviso de privacidade</a>
+            <a class="link-rodape" href="#">Envie-nos comentários</a>
+            <a class="link-rodape" href="#">Help</a>
+            <p>&copy; 1996-2023, Amazon.com, Inc. ou suas afiliadas</p>
+        </div>
+    </footer>
+
+
+    <!-- Link bootstrap javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
