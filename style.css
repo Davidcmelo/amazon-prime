@@ -276,7 +276,7 @@ body{
 /* TEXTO CAPA ACIMA DE 991PX */
 @media screen and (min-width:991px){
     .text-tela{
-        font-size: 15px;
+        font-size: 12px;
         padding: 10px;
     }
     
