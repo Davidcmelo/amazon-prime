@@ -224,15 +224,15 @@ body{
 
 .icn-img{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
     text-align: center;
 }
 
 .icn-img> h2{
- font-size: 25px;
+ font-size: 20px;
+ 
 }
 
 .linha-fdp{
