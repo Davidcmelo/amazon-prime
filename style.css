@@ -454,6 +454,10 @@ body{
         list-style: none;
     }
 
+    .grade-canais3{
+        width: auto;
+    }
+
     .img-tam{
         width: 150px;
     }
