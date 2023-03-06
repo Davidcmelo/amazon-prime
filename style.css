@@ -452,6 +452,7 @@ body{
         display: flex;
         flex-direction: column;
         list-style: none;
+        padding: 10px;
     }
 
     .grade-canais3{
@@ -460,7 +461,7 @@ body{
         flex-wrap: wrap;
         justify-content: center;
     }
-    }
+    
 
     .img-tam{
         width: 150px;
