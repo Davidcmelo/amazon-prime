@@ -455,7 +455,11 @@ body{
     }
 
     .grade-canais3{
-        width: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     }
 
     .img-tam{
@@ -463,7 +467,7 @@ body{
     }
 
     .img-tam2{
-        width: 120px;
+        width: 150px;
         
     }
 
